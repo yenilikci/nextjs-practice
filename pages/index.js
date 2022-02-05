@@ -1,10 +1,13 @@
 //pages klasörü altında oluşturulan dosyalar url'leri ile çağırılır.
 
-import Navbar from '../components/Navbar';
-const  Home = () => (
-    <div>
-        <Navbar />
-        Home page
-    </div>);
+import Layout from '../components/Layout';
+
+const Home = () => (
+    <Layout>
+        <div>
+            Home Page
+        </div>
+    </Layout>
+);
 
 export default Home;
