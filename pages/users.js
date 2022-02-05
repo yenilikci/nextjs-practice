@@ -8,7 +8,7 @@ const Users = props => {
             {/*{JSON.stringify(props)} */}
             <UserList users={props.users}/>
         </div>
-)
+    )
 };
 
 Users.getInitialProps = async () => {
@@ -18,3 +18,6 @@ Users.getInitialProps = async () => {
 };
 
 export default Users;
+
+
+
