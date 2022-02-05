@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="075f20be-3948-41f2-8fc9-758054218959" name="Changes" comment="" />
+    <list default="true" id="075f20be-3948-41f2-8fc9-758054218959" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Navbar.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +37,7 @@
       <updated>1644007843801</updated>
       <workItem from="1644007848620" duration="1429000" />
       <workItem from="1644051572161" duration="71000" />
-      <workItem from="1644051647058" duration="311000" />
+      <workItem from="1644051647058" duration="620000" />
     </task>
     <servers />
   </component>
