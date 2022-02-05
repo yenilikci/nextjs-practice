@@ -6,6 +6,8 @@ const Navbar = () => (
         &nbsp;
         {/*prefetch needs https connection*/}
         <Link prefetch href="/users" as="kullanicilar"><a>Users</a></Link>
+        &nbsp;
+        <Link href="/blog"><a>Blog</a></Link>
     </div>
 )
 
