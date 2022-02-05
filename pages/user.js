@@ -7,9 +7,10 @@ const User = () => {
         <Layout>
             <div>
                 <h2>User detail</h2>
-                {JSON.stringify(router)}
-                <br/> <br/>
-                {JSON.stringify(router.query.name)}
+                {/*{JSON.stringify(router)}*/}
+                {/*<br/> <br/>*/}
+                {/*{JSON.stringify(router.query.name)}*/}
+                {router.query.name}
             </div>
         </Layout>
     )
