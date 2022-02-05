@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const UserList = () => (
     <div>
-        <Link href="/user?name=melih" as="melih">
+        <Link href="/user?name=melih" as="u/melih">
             <a className="username">Melih</a>
         </Link> <br/>
-        <Link href="/user?name=celik" as="celik">
+        <Link href="/user?name=celik" as="u/celik">
             <a className="username">Celik</a>
         </Link>
 
