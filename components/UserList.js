@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Router  from "next/router";
 
 const UserList = props => (
     <div>
@@ -12,7 +13,9 @@ const UserList = props => (
         {props.users.map(user => (
             <div>
                 <Link href={`/user?name=${user.username}`} as={`u/${user.username}`}>
-                    <a className="username">{user.name}</a>
+                    <a
+                        onMouseEnter={()=> {Router.prefetch(`/user?name=${user.username}`); console.log('prefetching')}}
+                        className="username">{user.name}</a>
                 </Link>
             </div>
         ))}
