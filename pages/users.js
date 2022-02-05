@@ -1,12 +1,10 @@
-import {useRouter} from 'next/router';
+import UserList from "../components/UserList";
 
 const Users = () => {
-    const router = useRouter();
     return (
         <div>
-            {JSON.stringify(router)}
-            <br/> <br/>
-            {JSON.stringify(router.query.name)}
+            Users Page
+            <UserList/>
         </div>
 )
 };
